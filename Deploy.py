@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # load the model for the app
-model = tf.keras.models.load_model('vehicle_classifier.h5')
+model = tf.keras.models.load_model('CNN_model.h5')
 
 # classify labels of the dataset
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
