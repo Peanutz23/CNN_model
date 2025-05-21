@@ -10,7 +10,7 @@ model = tf.keras.models.load_model("CNN_model.h5")
 class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
                'dog', 'frog', 'horse', 'ship', 'truck']
 
-st.title("CIFAR Classifier")
+st.title("CNN model using CIFAR dataset")
 uploaded = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
 if uploaded:
